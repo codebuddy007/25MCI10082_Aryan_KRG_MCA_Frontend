@@ -1,0 +1,118 @@
+/* NotesApp component styles */
+.notes-app-container {
+	max-width: 480px;
+	margin: 40px auto;
+	background: #f7faff;
+	border-radius: 16px;
+	box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+	padding: 32px 28px 24px 28px;
+}
+
+.notes-title {
+	text-align: center;
+	font-size: 2rem;
+	color: #1976d2;
+	margin-bottom: 24px;
+	letter-spacing: 2px;
+}
+
+.notes-input-row {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 18px;
+}
+
+.notes-input {
+	flex: 1;
+	padding: 8px 14px;
+	border: 1.5px solid #b3c6e0;
+	border-radius: 6px;
+	font-size: 1rem;
+	outline: none;
+	transition: border 0.18s;
+}
+.notes-input:focus {
+	border: 1.5px solid #1976d2;
+}
+
+.add-btn {
+	background: #e3f2fd;
+	color: #1976d2;
+	font-weight: 600;
+}
+.add-btn:hover {
+	background: #bbdefb;
+}
+
+.notes-list {
+	padding: 0;
+	margin: 0;
+}
+
+/* NoteItem component styles */
+.note-item-card {
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+	margin: 12px 0;
+	padding: 16px 20px;
+	transition: box-shadow 0.2s;
+	display: flex;
+	align-items: center;
+}
+
+.note-item-card:hover {
+	box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+}
+
+.note-item-content {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+
+.note-text {
+	font-size: 1.1rem;
+	color: #333;
+	flex: 1;
+}
+
+.note-actions {
+	display: flex;
+	gap: 8px;
+}
+
+.note-btn {
+	border: none;
+	border-radius: 6px;
+	padding: 6px 14px;
+	font-size: 0.95rem;
+	cursor: pointer;
+	transition: background 0.18s, color 0.18s;
+}
+
+.edit-btn {
+	background: #e0f0ff;
+	color: #1976d2;
+}
+.edit-btn:hover {
+	background: #b3e0ff;
+}
+
+.update-btn {
+	background: #e8f5e9;
+	color: #388e3c;
+}
+.update-btn:hover {
+	background: #c8e6c9;
+}
+
+.delete-btn {
+	background: #ffebee;
+	color: #d32f2f;
+}
+.delete-btn:hover {
+	background: #ffcdd2;
+}
